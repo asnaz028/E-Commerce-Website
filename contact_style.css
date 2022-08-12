@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.body{
+	font-family: 'Noto Serif', serif;
+	 
+}
+
+.contact{
+	
+
+	background-size: 100% 100%;
+	width: 100%;
+	 
+	
+	
+	 
+ }
+ .head{
+ 	background-color: #06E1D9;
+ 	border-radius: 5px;
+ 	margin-top: -40px;
+
+ }
+ .fas{
+ 	color:#06E1D9 ;
+ 	font-size: 27px;
+ }
+ .p{
+ 	color: gray;
+ 	font-size: 15px;
+ }
+ .effect-1{
+ 	border: 0;
+ 	outline: none;
+ 	width: 100%;
+ 	padding: 7px 0;
+ 	border-bottom: 1px solid #ccc;
+ }
+ .effect-1 ~ .focus-border{
+ 	position: absolute;bottom:0;
+ 	left: 50%;
+ 	width: 0;
+ 	height: 2px;
+ 	background-color:#06E1D9 ;
+ 	transition: 0.4s;
+
+ }
+ .effect-1:focus ~ .focus-border{
+ 	width: 100%;
+ 	transition: 0.4s;
+ 	left: 0;
+ }
+.btn1{
+    background:#06E1D9 ;
+    color: white;
+    border: none;
+    width: 145px;
+    height: 40px;
+    border-radius: 5px;
+}
